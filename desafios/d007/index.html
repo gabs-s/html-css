@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 07</title>
+</head>
+<body>
+    <h1>Imagem flexível</h1>
+    <p>Esta vendo a imagem por inteiro? Experimente aumentar o tamanho da janela para experiênciar por completo &#x1F60A</p>
+    <picture>
+        <source media="(max-width: 840px)" srcset="pequeno.jpg" type="image/jpg">
+        <source media="(max-width: 1440px)" srcset="media.jpg" type="image/jpg">
+        <img src="grande.jpg" alt="grande">
+    </picture>
+</body>
+</html>

@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to bottom, rgb(255, 239, 96), rgb(211, 182, 19));
+    margin: 0px;
+}
+
+header{
+    background-color: rgb(252, 243, 232);
+    text-align: center;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.500);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+main{
+    background-color: rgb(252, 243, 232);
+    border-radius: 5px 20px;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.500);
+    padding: 1px;
+    margin: 10px;
+}
+
+nav{
+    padding: 3px;
+    background-color: rgb(216, 204, 189);
+    border-radius: 10px;
+}
+
+nav > a{
+    background-color: rgb(216, 204, 189);
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+}
+nav > a:hover{
+    text-decoration: underline;
+    color: rgb(185, 154, 17);
+}
+
+article{
+    background-color: rgb(216, 204, 189);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 1px 10px 10px 10px;
+    
+}
+
+article > p{
+    text-align: justify;
+    padding: 0px 5px 5px 5px;
+}
+
+.cont{
+    background-color: rgb(160, 151, 140);
+    width: 350px;
+    padding: 10px 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.500);
+}
+
+.nome{
+    color: rgb(116, 110, 103);
+    margin: 0px;
+}
+
+div{
+    background-color: aqua;
+    width: fit-content;
+    height: max-content;
+}
+
+footer{
+    background-color: rgb(27, 23, 23);
+    color: beige;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
+
+footer > p{
+    margin: 1px;
+}

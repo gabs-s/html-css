@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: rgb(150, 0, 0);
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: rgb(47, 0, 255);
+        }
+
+        .especial{
+            background-color: pink;
+        }
+
+        a::before{
+            content: ' ⇒';
+        }
+
+        .especial::after{
+            content: ' ⇐';
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/" target="_blank" class="especial">Site do Youtube</a></li>
+        <li><a href="https://www.systemrequirementslab.com/cyri" target="_blank">Site dos Jogos</a></li>
+        <li><a href="https://color.adobe.com/pt/create/color-wheel" target="_blank">Site das Cores</a></li>
+    </ul>
+</body>
+</html>
